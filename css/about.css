@@ -1,4 +1,17 @@
-h1{
-    text-align: center;
-    color: blue;
+main .content{
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    padding: 20px 0px;
+    
+}
+
+main .content-img{
+    max-width: 600px;
+    overflow: hidden;
+    flex-grow: 0;
+}
+
+.content-img img{
+    width: 100%;
 }
