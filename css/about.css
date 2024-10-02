@@ -26,3 +26,13 @@ table, th, td {
   border-collapse: collapse;
   padding: 10px;
 }
+
+th{
+    color: blue;
+    font-size: 1rem;
+    font-family: sans-serif;
+}
+tr:nth-child(even){
+    background-color: blue;
+    color: white;
+}
